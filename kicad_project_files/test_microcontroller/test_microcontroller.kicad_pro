@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keych&chong.kicad_pro",
+    "filename": "test_microcontroller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "f2e58682-96f3-407e-93c8-1f048a8af835",
+      "b973abb4-5ea6-4e7e-9719-060b133b599d",
       ""
     ]
   ],
