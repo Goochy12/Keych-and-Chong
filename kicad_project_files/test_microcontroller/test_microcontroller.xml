@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Liam (local)\Documents\repositories\Keych-and-Chong\kicad_project_files\test_microcontroller\test_microcontroller.kicad_sch</source>
-    <date>26/06/2022 1:03:47 PM</date>
+    <source>D:\UserData\Documents\repositories\Keych-and-Chong\kicad_project_files\test_microcontroller\test_microcontroller.kicad_sch</source>
+    <date>26/06/2022 6:38:29 PM</date>
     <tool>Eeschema (6.0.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="C1">
       <value>0.1uf</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
@@ -35,7 +35,7 @@
     </comp>
     <comp ref="C2">
       <value>0.1uf</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
@@ -44,7 +44,7 @@
     </comp>
     <comp ref="C3">
       <value>0.1uf</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
@@ -53,7 +53,7 @@
     </comp>
     <comp ref="C4">
       <value>0.1uf</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
@@ -187,13 +187,13 @@
       <tstamps>c65beb75-b23b-4d01-a981-6922dfb8c7c4</tstamps>
     </comp>
     <comp ref="D_CAPS1">
-      <value>LED</value>
-      <footprint>LED_THT:LED_D3.0mm</footprint>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <value>CLA1A-WKW-CXAYB153</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <libsource lib="CLA1A-WKW-CXAYB153 (SMD_LED)" part="CLA1A-WKW-CXAYB153" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5ba856df-b56a-4ce3-b5e6-23d2a7e80a20</tstamps>
+      <tstamps>56ba3f24-dc0e-40e3-8369-6a174e8e6dda</tstamps>
     </comp>
     <comp ref="ICSP_Programmer1">
       <value>Conn_02x03_Odd_Even</value>
@@ -388,7 +388,7 @@
     </comp>
     <comp ref="Y1">
       <value>16mhz</value>
-      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
@@ -397,6 +397,24 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="CLA1A-WKW-CXAYB153 (SMD_LED)" part="CLA1A-WKW-CXAYB153">
+      <footprints>
+        <fp>CLA1A-WKW-CXAYB153_CRE</fp>
+        <fp>CLA1A-WKW-CXAYB153_CRE-M</fp>
+        <fp>CLA1A-WKW-CXAYB153_CRE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">CLA1A-WKW-CXAYB153</field>
+        <field name="Footprint">CLA1A-WKW-CXAYB153_CRE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
       <description>USB 2.0-only Type-C Receptacle connector</description>
       <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
@@ -512,24 +530,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -641,6 +641,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="CLA1A-WKW-CXAYB153 (SMD_LED)">
+      <uri>D:/UserData/Documents/KiCad/6.0/symbols/2022-06-26_04-38-00.kicad_sym</uri>
+    </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
@@ -663,25 +666,25 @@
   <nets>
     <net code="1" name="CAPS">
       <node ref="R_CAPS1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="18" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
     </net>
     <net code="2" name="COL1">
       <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U1" pin="18" pinfunction="PB4" pintype="bidirectional"/>
     </net>
     <net code="3" name="COL2">
       <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="20" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
     </net>
     <net code="4" name="COL3">
       <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW_CAPS1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="21" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U1" pin="20" pinfunction="PB6" pintype="bidirectional"/>
     </net>
     <net code="5" name="D+">
       <node ref="R6" pin="2" pintype="passive"/>
@@ -700,7 +703,8 @@
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="D_CAPS1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_CAPS1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="D_CAPS1" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="ICSP_Programmer1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
@@ -772,8 +776,9 @@
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_CAPS1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D_CAPS1-Pad2)">
-      <node ref="D_CAPS1" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="22" name="Net-(D_CAPS1-Pad1)">
+      <node ref="D_CAPS1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="D_CAPS1" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="R_CAPS1" pin="2" pintype="passive"/>
     </net>
     <net code="23" name="Net-(J1-PadA5)">
@@ -803,7 +808,6 @@
       <node ref="U1" pin="13" pinfunction="~{HWB}/PD7" pintype="bidirectional"/>
     </net>
     <net code="29" name="RESET">
-      <node ref="ICSP_Programmer1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="24" pinfunction="PC1/~{RESET}" pintype="bidirectional"/>
@@ -812,19 +816,19 @@
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="PC2" pintype="bidirectional"/>
+      <node ref="U1" pin="21" pinfunction="PB7" pintype="bidirectional"/>
     </net>
     <net code="31" name="ROW2">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional"/>
+      <node ref="U1" pin="22" pinfunction="PC7" pintype="bidirectional"/>
     </net>
     <net code="32" name="ROW3">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional"/>
+      <node ref="U1" pin="23" pinfunction="PC6" pintype="bidirectional"/>
     </net>
     <net code="33" name="SCLK">
       <node ref="ICSP_Programmer1" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -846,41 +850,44 @@
       <node ref="U1" pin="32" pinfunction="AVCC" pintype="power_in"/>
       <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="35" name="unconnected-(J1-PadA8)">
+    <net code="35" name="unconnected-(ICSP_Programmer1-Pad4)">
+      <node ref="ICSP_Programmer1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(J1-PadB8)">
+    <net code="37" name="unconnected-(J1-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U1-Pad6)">
+    <net code="38" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad6)">
       <node ref="U1" pin="6" pinfunction="PD0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U1-Pad7)">
+    <net code="40" name="unconnected-(U1-Pad7)">
       <node ref="U1" pin="7" pinfunction="PD1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U1-Pad8)">
+    <net code="41" name="unconnected-(U1-Pad8)">
       <node ref="U1" pin="8" pinfunction="PD2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U1-Pad9)">
+    <net code="42" name="unconnected-(U1-Pad9)">
       <node ref="U1" pin="9" pinfunction="PD3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U1-Pad10)">
+    <net code="43" name="unconnected-(U1-Pad10)">
       <node ref="U1" pin="10" pinfunction="PD4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U1-Pad11)">
+    <net code="44" name="unconnected-(U1-Pad11)">
       <node ref="U1" pin="11" pinfunction="PD5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U1-Pad12)">
+    <net code="45" name="unconnected-(U1-Pad12)">
       <node ref="U1" pin="12" pinfunction="PD6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U1-Pad14)">
-      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    <net code="46" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U1-Pad22)">
-      <node ref="U1" pin="22" pinfunction="PC7" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="46" name="unconnected-(U1-Pad23)">
-      <node ref="U1" pin="23" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    <net code="47" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
