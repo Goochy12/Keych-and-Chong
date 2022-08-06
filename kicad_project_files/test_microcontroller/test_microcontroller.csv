@@ -1,72 +1,18 @@
-"Source:","D:\UserData\Documents\repositories\Keych-and-Chong\kicad_project_files\test_microcontroller\test_microcontroller.kicad_sch"
-"Date:","26/06/2022 6:38:29 PM"
-"Tool:","Eeschema (6.0.5)"
-"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","40"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"","","C1","0.1uf","Device:C","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~"
-"","","C2","0.1uf","Device:C","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~"
-"","","C3","0.1uf","Device:C","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~"
-"","","C4","0.1uf","Device:C","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~"
-"","","C5","10uf","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D4.0mm_P1.50mm","~"
-"","","C6","22pf","Device:C_Small","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~"
-"","","C7","22pf","Device:C_Small","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~"
-"","","C8","1uf","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D4.0mm_P1.50mm","~"
-"","","D1","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D2","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D3","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D4","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D5","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D6","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D7","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D8","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D9","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"","","D_CAPS1","CLA1A-WKW-CXAYB153","CLA1A-WKW-CXAYB153 (SMD_LED):CLA1A-WKW-CXAYB153","LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW",""
-"","","ICSP_Programmer1","Conn_02x03_Odd_Even","Connector_Generic:Conn_02x03_Odd_Even","Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical","~"
-"","","J1","USB_C_Receptacle_USB2.0","Connector:USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-"","","R1","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R2","10M","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R3","5.1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R4","5.1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R5","22ohm","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R6","22ohm","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R7","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","R_CAPS1","220ohm","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"","","SW1","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW2","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW3","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW4","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW5","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW6","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW7","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW8","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW9","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","SW_CAPS1","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"","","U1","ATmega8U2-A","MCU_Microchip_ATmega:ATmega8U2-A","Package_QFP:TQFP-32_7x7mm_P0.8mm","http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf"
-"","","Y1","16mhz","Device:Crystal","Crystal:Crystal_SMD_HC49-SD","~"
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"1","4","C1, C2, C3, C4","0.1uf","Device:C","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~"
-"2","1","C5","10uf","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D4.0mm_P1.50mm","~"
-"3","2","C6, C7","22pf","Device:C_Small","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~"
-"4","1","C8","1uf","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D4.0mm_P1.50mm","~"
-"5","9","D1, D2, D3, D4, D5, D6, D7, D8, D9","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-"6","1","D_CAPS1","CLA1A-WKW-CXAYB153","CLA1A-WKW-CXAYB153 (SMD_LED):CLA1A-WKW-CXAYB153","LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW",""
-"7","1","ICSP_Programmer1","Conn_02x03_Odd_Even","Connector_Generic:Conn_02x03_Odd_Even","Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical","~"
-"8","1","J1","USB_C_Receptacle_USB2.0","Connector:USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-"9","1","R1","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"10","1","R2","10M","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"11","2","R3, R4","5.1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"12","2","R5, R6","22ohm","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"13","1","R7","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"14","1","R_CAPS1","220ohm","Device:R_Small","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"15","10","SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW_CAPS1","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~"
-"16","1","U1","ATmega8U2-A","MCU_Microchip_ATmega:ATmega8U2-A","Package_QFP:TQFP-32_7x7mm_P0.8mm","http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf"
-"17","1","Y1","16mhz","Device:Crystal","Crystal:Crystal_SMD_HC49-SD","~"
+"Id","Designator","Package","Quantity","Designation","Supplier and ref",
+1,"R7,R1","R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",2,"10k",,,
+2,"D6,D1,D9,D8,D3,D7,D4,D5,D2","D_DO-35_SOD27_P7.62mm_Horizontal",9,"1N4148",,,
+3,"C1,C3,C2","C_Rect_L7.0mm_W2.0mm_P5.00mm",3,"0.1uf",,,
+4,"SW_CAPS1,SW1,SW6,SW4,SW7,SW2,SW5,SW8,SW3,SW9","SW_PUSH_6mm",10,"SW_Push",,,
+5,"R6,R5","R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",2,"22ohm",,,
+6,"U1","TQFP-32_7x7mm_P0.8mm",1,"ATmega8U2-A",,,
+7,"REF**,REF**","Jumper_THT",2,"Jumper_THT",,,
+8,"J1","USB_C_Receptacle_HRO_TYPE-C-31-M-12",1,"USB_C_Receptacle_USB2.0",,,
+9,"C5","CP_Radial_D4.0mm_P1.50mm",1,"10uf",,,
+10,"C6,C7","C_Disc_D3.0mm_W1.6mm_P2.50mm",2,"22pf",,,
+11,"Y1","Crystal_SMD_HC49-SD",1,"16mhz",,,
+12,"R_CAPS1","R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",1,"220ohm",,,
+13,"R4,R3","R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",2,"5.1k",,,
+14,"C8","CP_Radial_D4.0mm_P1.50mm",1,"1uf",,,
+15,"R2","R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",1,"10M",,,
+16,"ICSP_Programmer1","PinHeader_2x03_P2.00mm_Vertical",1,"Conn_02x03_Odd_Even",,,
+17,"D_CAPS1","LED_Cree-PLCC4_3.2x2.8mm_CCW",1,"CLA1A-WKW-CXAYB153",,,
