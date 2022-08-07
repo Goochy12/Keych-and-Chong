@@ -1,4 +1,4 @@
-20244458185934754
+20239482466401500
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -311,13 +311,6 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
-0
-2
-2
-Button - Alternate
-SW_4-1437565-0
-
-
 0
 2
 2
@@ -2372,13 +2365,6 @@ speaker CUI
 0
 2
 2
-CLA1A_SMD_LED
-CLA1A-WKW-CXAYB153
-
-
-0
-4
-4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -52968,13 +52954,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GCT_USB4510-03-1-A_REVA
-GCT_USB4510-03-1-A_REVA
-
-
-0
-16
-16
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
