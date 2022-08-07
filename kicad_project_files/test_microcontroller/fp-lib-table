@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name "Liam_CustomFootprints")(type "KiCad")(uri "D:/UserData/Documents/KiCad/6.0/footprints/Liam_CustomFootprints.pretty")(options "")(descr ""))
+  (lib (name "GCT_USB4510-03-1-A_REVA")(type "KiCad")(uri "D:/UserData/Documents/KiCad/6.0/footprints/GCT_USB4510-03-1-A_REVA.pretty")(options "")(descr ""))
+  (lib (name "CLA1A_SMD_LED")(type "KiCad")(uri "D:/UserData/Documents/KiCad/6.0/footprints/CLA1A_SMD_LED.pretty")(options "")(descr ""))
+  (lib (name "Button - Alternate")(type "KiCad")(uri "D:/UserData/Documents/KiCad/6.0/footprints/Button - Alternate.pretty")(options "")(descr ""))
 )
