@@ -4162,7 +4162,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 264.16 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 11b1cfc4-9a5b-484c-8a76-fddf40242229)
-    (property "Reference" "SW_END?" (id 0) (at 264.16 55.88 0))
+    (property "Reference" "SW_END1" (id 0) (at 264.16 55.88 0))
     (property "Value" "SW_SPST" (id 1) (at 264.16 58.42 0))
     (property "Footprint" "" (id 2) (at 264.16 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4222,7 +4222,7 @@
   (symbol (lib_id "Diode:1N4148") (at 274.32 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 134269f0-47ec-47f4-92fe-bd4ebe018ab3)
-    (property "Reference" "D?" (id 0) (at 276.86 90.1699 90)
+    (property "Reference" "D99" (id 0) (at 276.86 90.1699 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (id 1) (at 276.86 92.7099 90)
@@ -4329,7 +4329,7 @@
   (symbol (lib_id "Diode:1N4148") (at 274.32 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1a2beaf7-8eba-4f87-8554-f0e2c95526d5)
-    (property "Reference" "D?" (id 0) (at 276.86 111.7599 90)
+    (property "Reference" "D100" (id 0) (at 276.86 111.7599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (id 1) (at 276.86 114.2999 90)
@@ -4383,7 +4383,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 264.16 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1b5c8349-3867-4ea7-b36b-141dedeb15f8)
-    (property "Reference" "SW_DELETE?" (id 0) (at 264.16 34.29 0))
+    (property "Reference" "SW_DELETE1" (id 0) (at 264.16 34.29 0))
     (property "Value" "SW_SPST" (id 1) (at 264.16 36.83 0))
     (property "Footprint" "" (id 2) (at 264.16 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4546,7 +4546,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 157.48 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 249c41d4-2df1-48ce-aead-8af2ed554f95)
-    (property "Reference" "SW_ARR_BRK_O" (id 0) (at 157.48 123.19 0))
+    (property "Reference" "SW_ARR_BRK_O1" (id 0) (at 157.48 123.19 0))
     (property "Value" "SW_SPST" (id 1) (at 157.48 125.73 0))
     (property "Footprint" "" (id 2) (at 157.48 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4595,7 +4595,7 @@
   (symbol (lib_id "Diode:1N4148") (at 274.32 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 28e52480-f6f0-45b5-a758-981d320f8723)
-    (property "Reference" "D?" (id 0) (at 276.86 134.6199 90)
+    (property "Reference" "D101" (id 0) (at 276.86 134.6199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (id 1) (at 276.86 137.1599 90)
@@ -4731,7 +4731,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 233.68 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2c5d8c47-c1be-4e4a-865b-b496e6f0dbef)
-    (property "Reference" "SW_PG-DN?" (id 0) (at 233.68 121.92 0))
+    (property "Reference" "SW_PG-DN1" (id 0) (at 233.68 121.92 0))
     (property "Value" "SW_SPST" (id 1) (at 233.68 124.46 0))
     (property "Footprint" "" (id 2) (at 233.68 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4765,7 +4765,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 172.72 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2eb9033e-236f-4090-8bd1-b8a5de04d87b)
-    (property "Reference" "SW_ARR_BRK_C" (id 0) (at 172.72 123.19 0))
+    (property "Reference" "SW_ARR_BRK_C1" (id 0) (at 172.72 123.19 0))
     (property "Value" "SW_SPST" (id 1) (at 172.72 125.73 0))
     (property "Footprint" "" (id 2) (at 172.72 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4814,7 +4814,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 248.92 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 300fe495-374b-49db-b518-1ff066634ad3)
-    (property "Reference" "SW_NUM-LK?" (id 0) (at 248.92 77.47 0))
+    (property "Reference" "SW_NUM-LK1" (id 0) (at 248.92 77.47 0))
     (property "Value" "SW_SPST" (id 1) (at 248.92 80.01 0))
     (property "Footprint" "" (id 2) (at 248.92 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5195,7 +5195,7 @@
   (symbol (lib_id "Diode:1N4148") (at 274.32 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4b0a7e1e-b41a-4f30-b55b-8e10aca4fc4e)
-    (property "Reference" "D?" (id 0) (at 276.86 156.2099 90)
+    (property "Reference" "D102" (id 0) (at 276.86 156.2099 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (id 1) (at 276.86 158.7499 90)
@@ -5245,7 +5245,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 233.68 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4c097061-3cda-4115-ad36-79ac5de71132)
-    (property "Reference" "SW_PG-UP?" (id 0) (at 233.68 99.06 0))
+    (property "Reference" "SW_PG-UP1" (id 0) (at 233.68 99.06 0))
     (property "Value" "SW_SPST" (id 1) (at 233.68 101.6 0))
     (property "Footprint" "" (id 2) (at 233.68 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5821,7 +5821,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 187.96 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6b43eec3-dc09-4354-a1be-2eb407f4bef4)
-    (property "Reference" "SW_RIGHT?" (id 0) (at 187.96 143.51 0))
+    (property "Reference" "SW_RIGHT1" (id 0) (at 187.96 143.51 0))
     (property "Value" "SW_SPST" (id 1) (at 187.96 146.05 0))
     (property "Footprint" "" (id 2) (at 187.96 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5955,7 +5955,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 218.44 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 75606795-57be-49f4-8167-f43106f9849d)
-    (property "Reference" "SW_UP?" (id 0) (at 218.44 121.92 0))
+    (property "Reference" "SW_UP1" (id 0) (at 218.44 121.92 0))
     (property "Value" "SW_SPST" (id 1) (at 218.44 124.46 0))
     (property "Footprint" "" (id 2) (at 218.44 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6072,7 +6072,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 279.4 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7adf56f3-e564-4948-ad6c-df3d62c18a42)
-    (property "Reference" "SW_NUM-MINUS?" (id 0) (at 279.4 34.29 0))
+    (property "Reference" "SW_NUM-MINUS1" (id 0) (at 279.4 34.29 0))
     (property "Value" "SW_SPST" (id 1) (at 279.4 36.83 0))
     (property "Footprint" "" (id 2) (at 279.4 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6121,7 +6121,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 279.4 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7c4fd22f-7e51-448b-9c76-43e77e2a69a4)
-    (property "Reference" "SW_NUM-ENT?" (id 0) (at 279.4 143.51 0))
+    (property "Reference" "SW_NUM-ENT1" (id 0) (at 279.4 143.51 0))
     (property "Value" "SW_SPST" (id 1) (at 279.4 146.05 0))
     (property "Footprint" "" (id 2) (at 279.4 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6136,7 +6136,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 248.92 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7dc7b3b4-9c7e-405f-ad95-1276bcad1f77)
-    (property "Reference" "SW_HOME?" (id 0) (at 248.92 55.88 0))
+    (property "Reference" "SW_HOME1" (id 0) (at 248.92 55.88 0))
     (property "Value" "SW_SPST" (id 1) (at 248.92 58.42 0))
     (property "Footprint" "" (id 2) (at 248.92 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6231,7 +6231,7 @@
   (symbol (lib_id "Diode:1N4148") (at 274.32 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7f9d32e9-dc12-46fd-8de2-0cd941a22680)
-    (property "Reference" "D?" (id 0) (at 276.86 46.9899 90)
+    (property "Reference" "D97" (id 0) (at 276.86 46.9899 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (id 1) (at 276.86 49.5299 90)
@@ -6480,7 +6480,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 172.72 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8b7ee34f-0ee4-4146-8f99-458613475c0b)
-    (property "Reference" "SW_DOWN?" (id 0) (at 172.72 143.51 0))
+    (property "Reference" "SW_DOWN1" (id 0) (at 172.72 143.51 0))
     (property "Value" "SW_SPST" (id 1) (at 172.72 146.05 0))
     (property "Footprint" "" (id 2) (at 172.72 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6495,7 +6495,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 233.68 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8bfc8926-ad7f-48b8-9346-37a1a29e2a72)
-    (property "Reference" "SW_INSERT?" (id 0) (at 233.68 35.56 0))
+    (property "Reference" "SW_INSERT1" (id 0) (at 233.68 35.56 0))
     (property "Value" "SW_SPST" (id 1) (at 233.68 38.1 0))
     (property "Footprint" "" (id 2) (at 233.68 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6525,7 +6525,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 248.92 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8ea60cce-baf4-4f62-bd30-b2a507f1df3e)
-    (property "Reference" "SW_PRT-SC?" (id 0) (at 248.92 34.29 0))
+    (property "Reference" "SW_PRT-SC1" (id 0) (at 248.92 34.29 0))
     (property "Value" "SW_SPST" (id 1) (at 248.92 36.83 0))
     (property "Footprint" "" (id 2) (at 248.92 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6673,7 +6673,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 157.48 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9b3d7769-ad55-46e7-9fc2-6f96f1e95ff2)
-    (property "Reference" "SW_LEFT?" (id 0) (at 157.48 143.51 0))
+    (property "Reference" "SW_LEFT1" (id 0) (at 157.48 143.51 0))
     (property "Value" "SW_SPST" (id 1) (at 157.48 146.05 0))
     (property "Footprint" "" (id 2) (at 157.48 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6994,7 +6994,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 279.4 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid adbe08dd-0133-4f27-9068-7dededa7d954)
-    (property "Reference" "SW_NUM-PLUS?" (id 0) (at 279.4 55.88 0))
+    (property "Reference" "SW_NUM-PLUS1" (id 0) (at 279.4 55.88 0))
     (property "Value" "SW_SPST" (id 1) (at 279.4 58.42 0))
     (property "Footprint" "" (id 2) (at 279.4 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7767,7 +7767,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 218.44 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e5030a2b-2da8-4986-b08f-f663f1d281a5)
-    (property "Reference" "SW_NUM-DEL?" (id 0) (at 218.44 143.51 0))
+    (property "Reference" "SW_NUM-DEL1" (id 0) (at 218.44 143.51 0))
     (property "Value" "SW_SPST" (id 1) (at 218.44 146.05 0))
     (property "Footprint" "" (id 2) (at 218.44 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7861,7 +7861,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 279.4 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid efae35d8-1385-4992-a135-340a3db35d8c)
-    (property "Reference" "SW_NUM-ASTR?" (id 0) (at 279.4 77.47 0))
+    (property "Reference" "SW_NUM-ASTR1" (id 0) (at 279.4 77.47 0))
     (property "Value" "SW_SPST" (id 1) (at 279.4 80.01 0))
     (property "Footprint" "" (id 2) (at 279.4 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7978,7 +7978,7 @@
   (symbol (lib_id "Diode:1N4148") (at 274.32 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f8493213-c19c-46d8-bbcb-7eca8a22d224)
-    (property "Reference" "D?" (id 0) (at 276.86 68.5799 90)
+    (property "Reference" "D98" (id 0) (at 276.86 68.5799 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (id 1) (at 276.86 71.1199 90)
@@ -8084,7 +8084,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 218.44 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fcd47f2f-2095-4c28-b59c-83460c043f6d)
-    (property "Reference" "SW_F?" (id 0) (at 218.44 34.29 0))
+    (property "Reference" "SW_F12" (id 0) (at 218.44 34.29 0))
     (property "Value" "SW_SPST" (id 1) (at 218.44 36.83 0))
     (property "Footprint" "" (id 2) (at 218.44 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8533,29 +8533,29 @@
     (path "/c466b439-26d3-40da-a56f-8704e2fc934c"
       (reference "D96") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/7f9d32e9-dc12-46fd-8de2-0cd941a22680"
+      (reference "D97") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/f8493213-c19c-46d8-bbcb-7eca8a22d224"
+      (reference "D98") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/134269f0-47ec-47f4-92fe-bd4ebe018ab3"
+      (reference "D99") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/1a2beaf7-8eba-4f87-8554-f0e2c95526d5"
+      (reference "D100") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/28e52480-f6f0-45b5-a758-981d320f8723"
+      (reference "D101") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/4b0a7e1e-b41a-4f30-b55b-8e10aca4fc4e"
+      (reference "D102") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/f2015aff-a32c-4ecb-b6ec-8c68d3abb99e"
       (reference "D105") (unit 1) (value "LED") (footprint "")
     )
     (path "/a32b6715-45ff-4eb6-8892-5a46837b31bc"
       (reference "D106") (unit 1) (value "LED") (footprint "")
-    )
-    (path "/134269f0-47ec-47f4-92fe-bd4ebe018ab3"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/1a2beaf7-8eba-4f87-8554-f0e2c95526d5"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/28e52480-f6f0-45b5-a758-981d320f8723"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/4b0a7e1e-b41a-4f30-b55b-8e10aca4fc4e"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/7f9d32e9-dc12-46fd-8de2-0cd941a22680"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/f8493213-c19c-46d8-bbcb-7eca8a22d224"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/fab12cff-f0ef-4023-9d9a-1274eae4f0d8"
       (reference "ISCP1") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "")
@@ -8627,10 +8627,10 @@
       (reference "SW_ALT1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/2eb9033e-236f-4090-8bd1-b8a5de04d87b"
-      (reference "SW_ARR_BRK_C") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_ARR_BRK_C1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/249c41d4-2df1-48ce-aead-8af2ed554f95"
-      (reference "SW_ARR_BRK_O") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_ARR_BRK_O1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/12189446-55f1-4565-9e5b-2ef32596ea09"
       (reference "SW_B1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8660,16 +8660,16 @@
       (reference "SW_DASH1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/1b5c8349-3867-4ea7-b36b-141dedeb15f8"
-      (reference "SW_DELETE?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_DELETE1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/8b7ee34f-0ee4-4146-8f99-458613475c0b"
-      (reference "SW_DOWN?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_DOWN1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/4f4fa90a-e2c8-456f-9975-e05639893aae"
       (reference "SW_E1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/11b1cfc4-9a5b-484c-8a76-fddf40242229"
-      (reference "SW_END?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_END1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/a5886369-8b98-4472-ad15-69d220dac6fb"
       (reference "SW_ENT1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8710,11 +8710,11 @@
     (path "/75e0bc79-7559-4ee2-8746-5f39bd4456f6"
       (reference "SW_F11") (unit 1) (value "SW_SPST") (footprint "")
     )
+    (path "/fcd47f2f-2095-4c28-b59c-83460c043f6d"
+      (reference "SW_F12") (unit 1) (value "SW_SPST") (footprint "")
+    )
     (path "/d958a929-510e-4dac-9ca9-13bb02097a65"
       (reference "SW_F13") (unit 1) (value "SW_SPST") (footprint "")
-    )
-    (path "/fcd47f2f-2095-4c28-b59c-83460c043f6d"
-      (reference "SW_F?") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/35849ca1-3df9-4ad5-a34a-3a78e6593fbd"
       (reference "SW_FN1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8726,13 +8726,13 @@
       (reference "SW_H1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/7dc7b3b4-9c7e-405f-ad95-1276bcad1f77"
-      (reference "SW_HOME?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_HOME1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/54da6e93-bc18-4c96-a854-72b3e9db41fa"
       (reference "SW_I1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/8bfc8926-ad7f-48b8-9346-37a1a29e2a72"
-      (reference "SW_INSERT?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_INSERT1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/c9b14007-3f47-497c-ba67-af9fddbfb47e"
       (reference "SW_J1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8753,7 +8753,7 @@
       (reference "SW_L1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/9b3d7769-ad55-46e7-9fc2-6f96f1e95ff2"
-      (reference "SW_LEFT?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_LEFT1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/a3356f14-9ae2-4182-a4c5-b2cab2404ccb"
       (reference "SW_M1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8765,25 +8765,25 @@
       (reference "SW_N1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/efae35d8-1385-4992-a135-340a3db35d8c"
-      (reference "SW_NUM-ASTR?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_NUM-ASTR1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/e5030a2b-2da8-4986-b08f-f663f1d281a5"
-      (reference "SW_NUM-DEL?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_NUM-DEL1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/7c4fd22f-7e51-448b-9c76-43e77e2a69a4"
-      (reference "SW_NUM-ENT?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_NUM-ENT1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/9a711128-1042-4bc1-a142-18fb3d2621b5"
       (reference "SW_NUM-FWD-SLH1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/300fe495-374b-49db-b518-1ff066634ad3"
-      (reference "SW_NUM-LK?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_NUM-LK1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/7adf56f3-e564-4948-ad6c-df3d62c18a42"
-      (reference "SW_NUM-MINUS?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_NUM-MINUS1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/adbe08dd-0133-4f27-9068-7dededa7d954"
-      (reference "SW_NUM-PLUS?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_NUM-PLUS1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/a42f374f-324e-4258-879e-f9d52d3e5c57"
       (reference "SW_NUM0") (unit 1) (value "SW_SPST") (footprint "")
@@ -8825,16 +8825,16 @@
       (reference "SW_P1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/2c5d8c47-c1be-4e4a-865b-b496e6f0dbef"
-      (reference "SW_PG-DN?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_PG-DN1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/4c097061-3cda-4115-ad36-79ac5de71132"
-      (reference "SW_PG-UP?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_PG-UP1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/5aef50ee-5419-41a5-9b4a-0f636e55e0c4"
       (reference "SW_PLUS1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/8ea60cce-baf4-4f62-bd30-b2a507f1df3e"
-      (reference "SW_PRT-SC?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_PRT-SC1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/ef05c857-baaf-4807-8aae-b87dd2477171"
       (reference "SW_Q1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8858,7 +8858,7 @@
       (reference "SW_RESET1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/6b43eec3-dc09-4354-a1be-2eb407f4bef4"
-      (reference "SW_RIGHT?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_RIGHT1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/94508bd0-8424-4826-9137-f97b58be0153"
       (reference "SW_S1") (unit 1) (value "SW_SPST") (footprint "")
@@ -8879,7 +8879,7 @@
       (reference "SW_U1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/75606795-57be-49f4-8167-f43106f9849d"
-      (reference "SW_UP?") (unit 1) (value "SW_SPST") (footprint "")
+      (reference "SW_UP1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/bb218de6-4d1d-42c1-9e43-81aa50bc4d2d"
       (reference "SW_V1") (unit 1) (value "SW_SPST") (footprint "")
