@@ -1153,7 +1153,6 @@
     )
   )
 
-
   (junction (at 147.32 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 01985046-b091-49fb-b1e1-dd30ad027a99)
   )
@@ -8050,7 +8049,7 @@
     (uuid f73d5f45-bf04-4553-a792-1e4a94053fa4)
     (property "Reference" "SW_RESET1" (id 0) (at 361.95 137.16 0))
     (property "Value" "SW_SPST" (id 1) (at 361.95 139.7 0))
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" (id 2) (at 361.95 144.78 0)
+    (property "Footprint" "Button - Alternate:SW_4-1437565-0" (id 2) (at 361.95 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 361.95 144.78 0)
@@ -8959,7 +8958,7 @@
       (reference "SW_R1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate")
     )
     (path "/f73d5f45-bf04-4553-a792-1e4a94053fa4"
-      (reference "SW_RESET1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate")
+      (reference "SW_RESET1") (unit 1) (value "SW_SPST") (footprint "Button - Alternate:SW_4-1437565-0")
     )
     (path "/6b43eec3-dc09-4354-a1be-2eb407f4bef4"
       (reference "SW_RIGHT1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate")
