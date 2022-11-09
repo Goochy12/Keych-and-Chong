@@ -25,15 +25,43 @@
 		USB_Descriptor_Interface_t HID_Interface;
 		USB_HID_Descriptor_HID_t HID_Keyboard;
 		USB_Descriptor_Endpoint_t HID_ReportINEndpoint;
-		} USB_Descriptor_Configuration_t;
+	} USB_Descriptor_Configuration_t;
 		
-		/*
-		Enum for device interface descriptor IDs within the device. Each interface descriptor should have a single ID associated with it.
-		*/
-		enum InterfaceDescriptors_t
-		{
-			INTERFACE_ID_KEYBOARD = 0,
-		};
+	/*
+	Enum for device interface descriptor IDs within the device. Each interface descriptor should have a single ID associated with it.
+	*/
+	enum InterfaceDescriptors_t
+	{
+		INTERFACE_ID_KEYBOARD = 0,
+	};
+	
+	/*
+	Enum for String descriptor IDs within the device. Each string descriptor should have a single ID associated with it.
+	*/
+	enum StringDescriptors_t
+	{
+		STRING_ID_Language = 0,
+		STRING_ID_Manufacturer = 1,
+		STRING_ID_Product = 2,
+	};
+	
+	/*
+	Endpoint address of Keyboard HID reporting IN endpoint
+	*/
+	#define KEYBOARD_EPADDR (ENDPOINT_DIR_IN | 0)
+	
+	/*
+	Size in bytes of Keyboard HID reporting IN endpoint
+	*/
+	#define KEYBOARD_EPSIZE 8
+	
+	/*
+	function prototype
+	*/
+	uint16_t CALLBACK_USB_GetDescriptor(const uint16_t wValue,
+										const uint16_t wIndex,
+										const void** const DescriptorAddress)
+										ATTR_WARN_UNUSED_RESULT ATTR_NON_NULL_PTR_ARG(3);		
 
 
 #endif /* DESCRIPTORS_H_ */
