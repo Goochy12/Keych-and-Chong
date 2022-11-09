@@ -53,6 +53,7 @@ SUBDIRS :=  \
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
+../Descriptors.c \
 ../Keyboard.c \
 ../src/LUFA/LUFA/Drivers/USB/Class/Common/HIDParser.c \
 ../src/LUFA/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c \
@@ -97,6 +98,7 @@ ASM_SRCS +=
 
 
 OBJS +=  \
+Descriptors.o \
 Keyboard.o \
 src/LUFA/LUFA/Drivers/USB/Class/Common/HIDParser.o \
 src/LUFA/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o \
@@ -134,6 +136,7 @@ src/LUFA/LUFA/Drivers/USB/Class/Host/AudioClassHost.o \
 src/LUFA/LUFA/Drivers/USB/Class/Host/AndroidAccessoryClassHost.o
 
 OBJS_AS_ARGS +=  \
+Descriptors.o \
 Keyboard.o \
 src/LUFA/LUFA/Drivers/USB/Class/Common/HIDParser.o \
 src/LUFA/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o \
@@ -171,6 +174,7 @@ src/LUFA/LUFA/Drivers/USB/Class/Host/AudioClassHost.o \
 src/LUFA/LUFA/Drivers/USB/Class/Host/AndroidAccessoryClassHost.o
 
 C_DEPS +=  \
+Descriptors.d \
 Keyboard.d \
 src/LUFA/LUFA/Drivers/USB/Class/Common/HIDParser.d \
 src/LUFA/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.d \
@@ -208,6 +212,7 @@ src/LUFA/LUFA/Drivers/USB/Class/Host/AudioClassHost.d \
 src/LUFA/LUFA/Drivers/USB/Class/Host/AndroidAccessoryClassHost.d
 
 C_DEPS_AS_ARGS +=  \
+Descriptors.d \
 Keyboard.d \
 src/LUFA/LUFA/Drivers/USB/Class/Common/HIDParser.d \
 src/LUFA/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.d \
@@ -258,6 +263,13 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
+./Descriptors.o: .././Descriptors.c
+	@echo Building file: $<
+	@echo Invoking: AVR/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DUSE_LUFA_CONFIG_HEADER -DBOARD=BOARD_NONE -DARCH=ARCH_AVR8 -DF_CPU=1000000UL -DF_USB=8000000UL  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\include" -I"../src/LUFA/." -I"../src/Config"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega8u2 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega8u2" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
 ./Keyboard.o: .././Keyboard.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0

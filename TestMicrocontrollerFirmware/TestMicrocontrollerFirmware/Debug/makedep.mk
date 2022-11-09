@@ -2,6 +2,8 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
+Descriptors.c
+
 Keyboard.c
 
 src\LUFA\LUFA\Drivers\USB\Class\Common\HIDParser.c
