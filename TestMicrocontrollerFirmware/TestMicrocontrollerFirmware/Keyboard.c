@@ -23,8 +23,8 @@ USB_ClassInfo_HID_Device_t Keyboard_HID_Interface =
 		.InterfaceNumber = INTERFACE_ID_KEYBOARD,
 		.ReportINEndpoint = 
 		{
-			.Address = KEYBOARD_EPADDR
-			.Size = KEYBOARD_EPSIZE
+			.Address = KEYBOARD_EPADDR,
+			.Size = KEYBOARD_EPSIZE,
 			.Banks = 1
 		},
 		.PrevReportINBuffer = PrevKeyboardHIDReportBuffer,
@@ -88,12 +88,12 @@ void EVENT_USB_Device_StartOfFrame(void){
 
 //create HID report with key presses
 bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDInterfaceInfo,
-										 uint8_t* const ReportID,
-										 const uint8_t ReportType,
-										 void* ReportData,
-										 uint16_t* const ReportSize)
+										uint8_t* const ReportID,
+										const uint8_t ReportType,
+										void* ReportData,
+										uint16_t* const ReportSize)
 {
-	USB_KeyboardReport_Data_t KeyboardReport = (USB_KeyboardReport_Data_t*)ReportData;
+	USB_KeyboardReport_Data_t* KeyboardReport = (USB_KeyboardReport_Data_t*)ReportData;
 	
 	KeyboardReport->KeyCode[1] = HID_KEYBOARD_SC_A;
 	
@@ -101,11 +101,11 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
 	return false;
 }
 
-bool CALLBACK_HID_Device_ProcessHIDReport(USB_ClassInfo_HID_Device_t* const HIDInterfaceInfo,
-										  const uint8_t ReportID,
-										  const uint8_t ReportType,
-										  const void* ReportData,
-										  const uint16_t ReportSize)
+void CALLBACK_HID_Device_ProcessHIDReport(USB_ClassInfo_HID_Device_t* const HIDInterfaceInfo,
+										const uint8_t ReportID,
+										const uint8_t ReportType,
+										const void* ReportData,
+										const uint16_t ReportSize)
 {
 	
 }
