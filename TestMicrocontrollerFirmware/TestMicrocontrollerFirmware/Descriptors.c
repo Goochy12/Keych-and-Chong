@@ -137,7 +137,8 @@ Function called when device receives GetDescriptor request on control endpoint -
 */
 uint16_t CALLBACK_USB_GetDescriptor(const uint16_t wValue, /*descriptor type in High byte, Index in Low byte*/
 									const uint16_t wIndex, 
-									const void** const DescriptorAddress)
+									const void** const DescriptorAddress,
+									uint8_t* const DescriptorMemorySpace)
 {
 	const uint8_t DescriptorType = (wValue >> 8);
 	const uint8_t DescriptorNumber = (wValue & 0xFF);
