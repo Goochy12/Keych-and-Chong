@@ -10,7 +10,13 @@
 
 #include "Keyboard.h"
 
-/*Buffer to hold previously generated HID report - for comparisson purposes inside HID class driver.*/
+uint8_t KeyboardMatrix [3][3] = {
+	{HID_KEYBOARD_SC_A, HID_KEYBOARD_SC_B, HID_KEYBOARD_SC_C},
+	{HID_KEYBOARD_SC_1_AND_EXCLAMATION, HID_KEYBOARD_SC_2_AND_AT, HID_KEYBOARD_SC_3_AND_HASHMARK},
+	{HID_KEYBOARD_MODIFIER_LEFTSHIFT, HID_KEYBOARD_MODIFIER_LEFTGUI, HID_KEYBOARD_SC_CAPS_LOCK}
+};
+
+/*Buffer to hold previously generated HID report - for comparison purposes inside HID class driver.*/
 static uint8_t PrevKeyboardHIDReportBuffer[sizeof(USB_KeyboardReport_Data_t)];
 
 /*LUFA HID Class Driver interface configuration and state information.

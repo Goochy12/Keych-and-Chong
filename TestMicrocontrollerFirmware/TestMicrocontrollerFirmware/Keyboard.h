@@ -22,6 +22,18 @@
 	#include <LUFA/Drivers/USB/USB.h>
 	#include <LUFA/Platform/Platform.h>
 	
+	#define ColumnPins [3] = {PINB4, PINB5, PINB6};
+	
+	#define RowPins [3] = {PINB7, PINC7, PINC6};
+	
+	#define ColumnDDR [3] = {DDRB, DDRB, DDRB};
+	
+	#define RowDDR [3] = {DDRB, DDRC, DDRC};
+	
+	#define ColumnPorts [3] = {PORTB, PORTB, PORTB};
+	
+	#define RowPorts [3] = {PORTB, PORTC, PORTC};
+	
 	
 	//function prototypes
 	void SetupHardware(void);
