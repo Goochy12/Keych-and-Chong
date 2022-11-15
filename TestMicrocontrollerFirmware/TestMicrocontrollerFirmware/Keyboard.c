@@ -63,6 +63,9 @@ void SetupHardware(){
 	clock_prescale_set(clock_div_1);
 	
 	USB_Init();
+	
+	//set column output pins
+	DDRB = (1 << DDB4) | (1 << DDB5) | (1 << DDB6);
 }
 
 //library connect event
@@ -101,6 +104,9 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
 {
 	USB_KeyboardReport_Data_t* KeyboardReport = (USB_KeyboardReport_Data_t*)ReportData;
 	
+	uint8_t keysList [6] = {};
+	ScanMatrix(keysList);
+	
 	KeyboardReport->KeyCode[1] = HID_KEYBOARD_SC_A;
 	
 	*ReportSize = sizeof(USB_KeyboardReport_Data_t);
@@ -114,4 +120,38 @@ void CALLBACK_HID_Device_ProcessHIDReport(USB_ClassInfo_HID_Device_t* const HIDI
 										const uint16_t ReportSize)
 {
 	
+}
+
+void ScanMatrix(uint8_t keysList[]){
+	int keysUsed = 0;
+	
+	for (int c = 0; c < 3; c++)
+	{
+		//drive pin high
+		PORTB = (1 << (4 + c));
+		
+		for (int r = 0; r < 3; r++)
+		{
+			if (r == 0)
+			{
+				if (PINB & (1 << PINB7))
+				{
+					if (keysUsed < 6)
+					{
+						keysList[keysUsed] = KeyboardMatrix[c][r];
+						keysUsed++;
+					}
+				}
+			}else{
+				if (PINC & (1 << (8 - r)))
+				{
+					if (keysUsed < 6)
+					{
+						keysList[keysUsed] = KeyboardMatrix[c][r];
+						keysUsed++;
+					}
+				}
+			}
+		}
+	}
 }

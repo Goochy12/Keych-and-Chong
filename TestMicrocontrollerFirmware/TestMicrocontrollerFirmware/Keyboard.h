@@ -26,10 +26,6 @@
 	
 	#define RowPins [3] = {PINB7, PINC7, PINC6};
 	
-	#define ColumnDDR [3] = {DDRB, DDRB, DDRB};
-	
-	#define RowDDR [3] = {DDRB, DDRC, DDRC};
-	
 	#define ColumnPorts [3] = {PORTB, PORTB, PORTB};
 	
 	#define RowPorts [3] = {PORTB, PORTC, PORTC};
@@ -55,8 +51,7 @@
 											const uint8_t ReportType,
 											const void* ReportData,
 											const uint16_t ReportSize);
-
-
-
+	
+	void ScanMatrix(uint8_t keysList[]);
 
 #endif /* KEYBOARD_H_ */
