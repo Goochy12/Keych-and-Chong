@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\UserData\Documents\repositories\Keych-and-Chong\kicad_project_files\test_microcontroller\test_microcontroller.kicad_sch</source>
-    <date>26/06/2022 6:38:29 PM</date>
-    <tool>Eeschema (6.0.5)</tool>
+    <source>C:\Users\Liam\Documents\repositories\Keych-and-Chong\kicad_project_files\test_microcontroller\test_microcontroller.kicad_sch</source>
+    <date>12/03/2023 11:56:45 AM</date>
+    <tool>Eeschema (6.0.8)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -29,7 +29,7 @@
       <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4d48e41d-3878-4a27-ab4f-51a7ebfea6fe</tstamps>
     </comp>
@@ -38,7 +38,7 @@
       <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>13367be9-0e6a-4a67-a458-c4a7ff961f39</tstamps>
     </comp>
@@ -47,7 +47,7 @@
       <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e219a540-f704-4e51-8800-ffeb39d71955</tstamps>
     </comp>
@@ -56,7 +56,7 @@
       <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bb541b2f-d67b-4003-8c33-97256b3b0594</tstamps>
     </comp>
@@ -65,7 +65,7 @@
       <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6dcef1b1-4f29-4955-8236-237bce6c4f28</tstamps>
     </comp>
@@ -74,7 +74,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b9ecd43d-9538-47c9-9ef4-b012f00251ed</tstamps>
     </comp>
@@ -83,7 +83,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bac1207f-db2a-4b34-aec1-cfc6c8f89139</tstamps>
     </comp>
@@ -92,7 +92,7 @@
       <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0bb49643-59fe-4f88-a0cc-b6d93144662d</tstamps>
     </comp>
@@ -102,7 +102,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>28a15732-cbf3-4837-975e-fa0e17e91a1d</tstamps>
     </comp>
@@ -112,7 +112,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4bb0108a-f124-4413-9794-0d64f58c8cf2</tstamps>
     </comp>
@@ -122,7 +122,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b78c97b4-c0f3-4132-ab3d-7769cd605bbe</tstamps>
     </comp>
@@ -132,7 +132,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>21393274-4017-43d7-ba7d-f56a457c6754</tstamps>
     </comp>
@@ -142,7 +142,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>187d9946-f307-4aa4-9836-11206acb59a4</tstamps>
     </comp>
@@ -152,7 +152,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ace35b10-02a2-4b79-8d10-d5dfd31ba168</tstamps>
     </comp>
@@ -162,7 +162,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>87243d84-e853-4921-85b4-036bec1f6cc9</tstamps>
     </comp>
@@ -172,7 +172,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>27b3ec95-e25d-4f68-b9c1-388960963fe7</tstamps>
     </comp>
@@ -182,25 +182,25 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c65beb75-b23b-4d01-a981-6922dfb8c7c4</tstamps>
     </comp>
     <comp ref="D_CAPS1">
-      <value>CLA1A-WKW-CXAYB153</value>
-      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
-      <libsource lib="CLA1A-WKW-CXAYB153 (SMD_LED)" part="CLA1A-WKW-CXAYB153" description=""/>
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>56ba3f24-dc0e-40e3-8369-6a174e8e6dda</tstamps>
     </comp>
     <comp ref="ICSP_Programmer1">
       <value>Conn_02x03_Odd_Even</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1bc5dd36-6c22-4532-936b-9ec262629ce9</tstamps>
     </comp>
@@ -210,169 +210,169 @@
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>29e44f23-b958-4c15-8e4c-23c54ef10f8f</tstamps>
     </comp>
     <comp ref="R1">
       <value>10k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4eda9dbe-42b1-4c98-8e41-71d9fc212988</tstamps>
     </comp>
     <comp ref="R2">
       <value>10M</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>36906dc0-35be-447b-bd74-dafe9b5c2f54</tstamps>
     </comp>
     <comp ref="R3">
       <value>5.1k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c23428c9-d697-42de-9740-841cbc7b7753</tstamps>
     </comp>
     <comp ref="R4">
       <value>5.1k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>338ca8c2-4fb7-42e7-bbbd-a07e5f3100e3</tstamps>
     </comp>
     <comp ref="R5">
       <value>22ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c11b3556-4118-4aca-a342-5693a7227773</tstamps>
     </comp>
     <comp ref="R6">
       <value>22ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fa1d4e24-2f69-46f0-94f2-df20880b60ee</tstamps>
     </comp>
     <comp ref="R7">
       <value>10k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>18cab153-0820-4963-919f-6c1a956d5a45</tstamps>
     </comp>
     <comp ref="R_CAPS1">
-      <value>220ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <value>147ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>14653aa2-9a0b-426d-9540-0cea7f399f56</tstamps>
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dcad0c46-d00d-47bd-b14e-abc5a1752c15</tstamps>
     </comp>
     <comp ref="SW2">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>50ca629d-9549-4245-916f-2c4cae7c3f0a</tstamps>
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9d7818bd-ddf7-4bad-b3c0-3aef487c2b7e</tstamps>
     </comp>
     <comp ref="SW4">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>52d68fde-e730-4933-938c-d2c86e1b0ff1</tstamps>
     </comp>
     <comp ref="SW5">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f6abcdb5-c97b-4658-bdd0-3f9075e03d37</tstamps>
     </comp>
     <comp ref="SW6">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>94f93b90-d7fb-4cff-b857-216e3985a961</tstamps>
     </comp>
     <comp ref="SW7">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4a9040f1-6dd6-41a1-895e-666cce1f9166</tstamps>
     </comp>
     <comp ref="SW8">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>03bfc24c-91fd-4454-a173-f7bf00a01ff6</tstamps>
     </comp>
     <comp ref="SW9">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c36d20a4-c7cf-4667-ac3a-a69a07598eb6</tstamps>
     </comp>
     <comp ref="SW_CAPS1">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <footprint>Button - Alternate:SW_4-1437565-0</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>13c19b45-90cd-497a-b404-81cf9319aa9e</tstamps>
     </comp>
@@ -382,7 +382,7 @@
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</datasheet>
       <libsource lib="MCU_Microchip_ATmega" part="ATmega8U2-A" description="16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TQFP-32"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b1833f54-dfb3-49c0-a81e-48d66c89dff0</tstamps>
     </comp>
@@ -391,30 +391,12 @@
       <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="test_microcontroller.kicad_sch"/>
+      <property name="Sheetfile" value="File: test_microcontroller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>19cb5ba7-2df8-453d-b153-e3e18dea1ec9</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="CLA1A-WKW-CXAYB153 (SMD_LED)" part="CLA1A-WKW-CXAYB153">
-      <footprints>
-        <fp>CLA1A-WKW-CXAYB153_CRE</fp>
-        <fp>CLA1A-WKW-CXAYB153_CRE-M</fp>
-        <fp>CLA1A-WKW-CXAYB153_CRE-L</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">CLA1A-WKW-CXAYB153</field>
-        <field name="Footprint">CLA1A-WKW-CXAYB153_CRE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="unspecified"/>
-        <pin num="2" name="2" type="unspecified"/>
-        <pin num="3" name="3" type="unspecified"/>
-        <pin num="4" name="4" type="unspecified"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
       <description>USB 2.0-only Type-C Receptacle connector</description>
       <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
@@ -530,6 +512,24 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -641,9 +641,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="CLA1A-WKW-CXAYB153 (SMD_LED)">
-      <uri>D:/UserData/Documents/KiCad/6.0/symbols/2022-06-26_04-38-00.kicad_sym</uri>
-    </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
@@ -703,9 +700,8 @@
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="D_CAPS1" pin="3" pinfunction="3" pintype="unspecified"/>
-      <node ref="D_CAPS1" pin="4" pinfunction="4" pintype="unspecified"/>
-      <node ref="ICSP_Programmer1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="D_CAPS1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="ICSP_Programmer1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
@@ -720,11 +716,11 @@
     </net>
     <net code="8" name="MISO">
       <node ref="ICSP_Programmer1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="17" pinfunction="PB3" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="PD0" pintype="bidirectional"/>
     </net>
     <net code="9" name="MOSI">
-      <node ref="ICSP_Programmer1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U1" pin="16" pinfunction="PB2" pintype="bidirectional"/>
+      <node ref="ICSP_Programmer1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PD1" pintype="bidirectional"/>
     </net>
     <net code="10" name="Net-(C6-Pad2)">
       <node ref="C6" pin="2" pintype="passive"/>
@@ -776,38 +772,38 @@
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_CAPS1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D_CAPS1-Pad1)">
-      <node ref="D_CAPS1" pin="1" pinfunction="1" pintype="unspecified"/>
-      <node ref="D_CAPS1" pin="2" pinfunction="2" pintype="unspecified"/>
-      <node ref="R_CAPS1" pin="2" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(J1-PadA5)">
+    <net code="22" name="Net-(J1-PadA5)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(J1-PadA6)">
+    <net code="23" name="Net-(J1-PadA6)">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(J1-PadA7)">
+    <net code="24" name="Net-(J1-PadA7)">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(J1-PadB5)">
+    <net code="25" name="Net-(J1-PadB5)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(J1-PadS1)">
+    <net code="26" name="Net-(J1-PadS1)">
       <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(R7-Pad1)">
+    <net code="27" name="Net-(R7-Pad1)">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="~{HWB}/PD7" pintype="bidirectional"/>
     </net>
+    <net code="28" name="Net-(R_CAPS1-Pad2)">
+      <node ref="D_CAPS1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R_CAPS1" pin="2" pintype="passive"/>
+    </net>
     <net code="29" name="RESET">
+      <node ref="ICSP_Programmer1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="24" pinfunction="PC1/~{RESET}" pintype="bidirectional"/>
@@ -831,8 +827,8 @@
       <node ref="U1" pin="23" pinfunction="PC6" pintype="bidirectional"/>
     </net>
     <net code="33" name="SCLK">
-      <node ref="ICSP_Programmer1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="ICSP_Programmer1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PD2" pintype="bidirectional"/>
     </net>
     <net code="34" name="VCC">
       <node ref="C1" pin="1" pintype="passive"/>
@@ -840,7 +836,7 @@
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="ICSP_Programmer1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="ICSP_Programmer1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
@@ -850,43 +846,40 @@
       <node ref="U1" pin="32" pinfunction="AVCC" pintype="power_in"/>
       <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="35" name="unconnected-(ICSP_Programmer1-Pad4)">
-      <node ref="ICSP_Programmer1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
-    </net>
-    <net code="36" name="unconnected-(J1-PadA8)">
+    <net code="35" name="unconnected-(J1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(J1-PadB8)">
+    <net code="36" name="unconnected-(J1-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U1-Pad5)">
+    <net code="37" name="unconnected-(U1-Pad5)">
       <node ref="U1" pin="5" pinfunction="PC2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U1-Pad6)">
-      <node ref="U1" pin="6" pinfunction="PD0" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="40" name="unconnected-(U1-Pad7)">
-      <node ref="U1" pin="7" pinfunction="PD1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="41" name="unconnected-(U1-Pad8)">
-      <node ref="U1" pin="8" pinfunction="PD2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="42" name="unconnected-(U1-Pad9)">
+    <net code="38" name="unconnected-(U1-Pad9)">
       <node ref="U1" pin="9" pinfunction="PD3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U1-Pad10)">
+    <net code="39" name="unconnected-(U1-Pad10)">
       <node ref="U1" pin="10" pinfunction="PD4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U1-Pad11)">
+    <net code="40" name="unconnected-(U1-Pad11)">
       <node ref="U1" pin="11" pinfunction="PD5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U1-Pad12)">
+    <net code="41" name="unconnected-(U1-Pad12)">
       <node ref="U1" pin="12" pinfunction="PD6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U1-Pad25)">
+    <net code="42" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad25)">
       <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U1-Pad26)">
+    <net code="46" name="unconnected-(U1-Pad26)">
       <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
