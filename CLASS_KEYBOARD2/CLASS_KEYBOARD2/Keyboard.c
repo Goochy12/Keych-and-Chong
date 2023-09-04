@@ -164,6 +164,12 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
 
 	//if (UsedKeyCodes)
 	  //KeyboardReport->Modifier = HID_KEYBOARD_MODIFIER_LEFTSHIFT;
+	  
+	  for(int i = 0; i < 6; i++){
+	  	if(keys_pressed[i] != 0){
+	  		KeyboardReport->KeyCode[i] = keys_pressed[i];
+	  	}
+	  }
 
 	*ReportSize = sizeof(USB_KeyboardReport_Data_t);
 	return false;

@@ -44,7 +44,7 @@ void matrix_init(){
 	//this does the same as above
 	DDRB = (1 << DDB0);
 	DDRC = (1 << DDC6);
-	DDRC &= (1 << DDC7);
+	DDRC |= (1 << DDC7);
 	
 	
 	portPin_tuple rowTuple[NUM_ROWS];
@@ -92,6 +92,7 @@ void matrix_scan(){
 						}
 					}
 				}else{
+					//key up
 					key_states_layer[i][j] = 0;
 					for (int k = 0; k < 6; k++)
 					{
@@ -106,5 +107,8 @@ void matrix_scan(){
 			}
 			
 		}
+		sei();
+		*cols[i].port &= ~(1 << cols[i].pin); //set pin to low
+		
 	}
 }
