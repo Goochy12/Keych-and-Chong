@@ -1,11 +1,3 @@
-/*
- * Matrix.h
- *
- * Created: 7/06/2023 9:54:57 PM
- *  Author: Liam
- */ 
-
-
 #ifndef MATRIX_H_
 #define MATRIX_H_
 
